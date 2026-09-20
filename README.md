@@ -84,3 +84,10 @@ open by design. See `claude-guardrails/README.md`.
   `gh auth refresh -s workflow`.
 
 MIT.
+
+## Related
+
+One of a small family of tools that stop a bad change reaching production:
+
+- [calibration-guard](https://github.com/kulykivska/calibration-guard) — probability calibration that refuses to ship a broken curve.
+- [baseline-guard](https://github.com/kulykivska/baseline-guard) — fail a build when a model regressed on any slice, not just on average.
